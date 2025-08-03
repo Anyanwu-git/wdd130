@@ -2,7 +2,7 @@
 <html lang="en-US">
 
 <head>
-    <meta charset="utf-8" />
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RiverJoy Adventures - Contact Us</title>
     <meta name="description" content="Contact RiverJoy Adventures for reservations, general inquiries, or website suggestions. We are here to plan your next rafting adventure.">
@@ -71,17 +71,16 @@
 
             <fieldset>
                 <legend>Purpose of message:</legend>
-                <label><input type="radio" name="purpose" value="general" required> General Inquiry</label>
-                <label><input type="radio" name="purpose" value="reservation"> Reservation Question</label>
-                <label><input type="radio" name="purpose" value="website"> Website Suggestion</label>
+                <label for="general"><input type="radio" id="general" name="purpose" value="general" required> General Inquiry</label>
+                <label for="reservation"><input type="radio" id="reservation" name="purpose" value="reservation"> Reservation Question</label>
+                <label for="website"><input type="radio" id="website" name="purpose" value="website"> Website Suggestion</label>
             </fieldset>
 
                 <label for="message">Message:</label>
                 <textarea id="message" name="message" rows="5" required></textarea>
 
-                <label>
-                    <input type="checkbox" name="subscribe"> Please subscribe me to the monthly newsletter
-                </label>
+                <label for="subscribe"><input type="checkbox" id="subscribe" name="subscribe"> Please subscribe me to the monthly newsletter</label>
+                
 
                 <button type="submit">Send Message</button>
             </form>
