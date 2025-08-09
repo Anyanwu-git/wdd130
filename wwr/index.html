@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="RiverJoy Adventures — guided whitewater rafting trips for families and groups. Sign up for our newsletter and book your next adventure.">
+  <meta name="author" content="Lilian Anyanwu">
+  <title>RiverJoy Adventures – Home</title>
+
+  <!-- Google Fonts (same as other pages) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka&family=Open+Sans&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles/rafting.css">
+</head>
+<body>
+  <header>
+    <img src="images/logo.png" alt="Rafting Company Logo">
+    <h1>RiverJoy Adventures</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="trips.html">Trips</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO with CTA -->
+    <section class="hero hero-home">
+      <h2>Find Your Flow</h2>
+      <p>Thrilling, safe, and unforgettable rafting for all skill levels.</p>
+      <div class="cta-row">
+        <a class="btn btn-primary" href="trips.html">Book a Trip</a>
+        <a class="btn btn-outline" href="about.html">Learn More</a>
+      </div>
+    </section>
+
+    <!-- Newsletter (uses CSS Grid) -->
+    <section class="newsletter" aria-labelledby="news-title">
+      <h2 id="news-title">Join Our Newsletter</h2>
+      <p>Get discounts, trip openings, and safety tips — straight to your inbox.</p>
+      <form class="newsletter-form" action="#" method="post">
+        <div class="grid-2">
+          <div>
+            <label for="news-name">Name</label>
+            <input type="text" id="news-name" name="name" required>
+          </div>
+          <div>
+            <label for="news-email">Email</label>
+            <input type="email" id="news-email" name="email" required>
+          </div>
+        </div>
+        <button type="submit" class="btn btn-primary">Subscribe</button>
+      </form>
+    </section>
+
+    <!-- Highlights (CSS Grid cards) -->
+    <section class="highlights" aria-labelledby="highlights-title">
+      <h2 id="highlights-title">Why Paddle With Us?</h2>
+      <div class="card-grid">
+        <article class="card">
+          <img src="images/raft4.jpg" alt="Family rafting on calm water">
+          <h3>Family Friendly</h3>
+          <p>Trips for beginners and kids with certified guides and top gear.</p>
+        </article>
+        <article class="card">
+          <img src="images/raft6.jpg" alt="Raft cutting through white water">
+          <h3>Real Adventure</h3>
+          <p>From half-day splash to full-day class IV thrills — pick your pace.</p>
+        </article>
+        <article class="card">
+          <img src="images/raft2.jpg" alt="Guide briefing team before launch">
+          <h3>Safety First</h3>
+          <p>Professional guides, pre-trip briefings, and maintained equipment.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 RiverJoy Adventures | Lilian Anyanwu</p>
+    <div class="socials">
+      <a href="#"><img src="images/facebook.png" alt="Facebook"></a>
+      <a href="#"><img src="images/twitter.png" alt="Twitter"></a>
+      <a href="#"><img src="images/instagram.png" alt="Instagram"></a>
+    </div>
+  </footer>
+</body>
+</html>

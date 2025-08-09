@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Browse RiverJoy rafting trips: difficulty, duration, and pricing. Book your next whitewater adventure.">
+  <meta name="author" content="Lilian Anyanwu">
+  <title>RiverJoy Adventures – Trips</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka&family=Open+Sans&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles/rafting.css">
+</head>
+<body>
+  <header>
+    <img src="images/logo.png" alt="Rafting Company Logo">
+    <h1>RiverJoy Adventures</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="trips.html" class="active">Trips</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero hero-trips">
+      <h2>Choose Your Adventure</h2>
+      <p>All trips include gear, safety briefing, and a pro guide.</p>
+      <a class="btn btn-primary" href="contact.html">Ask About Availability</a>
+    </section>
+
+    <!-- Trip cards (Grid) -->
+    <section class="trips" aria-labelledby="trips-title">
+      <h2 id="trips-title">Popular Trips</h2>
+      <div class="trips-grid">
+        <article class="trip">
+          <img src="images/raft1.jpg" alt="Los Dientes del Diablo rapid">
+          <div class="trip-body">
+            <h3>Los Dientes del Diablo</h3>
+            <ul class="trip-meta">
+              <li><strong>Duration:</strong> Half-day</li>
+              <li><strong>Difficulty:</strong> Intermediate (III–IV)</li>
+              <li><strong>Price:</strong> $85</li>
+            </ul>
+            <a class="btn btn-outline" href="contact.html">Reserve</a>
+          </div>
+        </article>
+
+        <article class="trip">
+          <img src="images/raft3.jpg" alt="Calm family section of the river">
+          <div class="trip-body">
+            <h3>Family Fun Ride</h3>
+            <ul class="trip-meta">
+              <li><strong>Duration:</strong> 2 hours</li>
+              <li><strong>Difficulty:</strong> Beginner (I–II)</li>
+              <li><strong>Price:</strong> $49</li>
+            </ul>
+            <a class="btn btn-outline" href="contact.html">Reserve</a>
+          </div>
+        </article>
+
+        <article class="trip">
+          <img src="images/raft5.jpg" alt="Evening rafting at sunset">
+          <div class="trip-body">
+            <h3>Sunset Splash</h3>
+            <ul class="trip-meta">
+              <li><strong>Duration:</strong> Evening (3 hrs)</li>
+              <li><strong>Difficulty:</strong> Moderate (II–III)</li>
+              <li><strong>Price:</strong> $65</li>
+            </ul>
+            <a class="btn btn-outline" href="contact.html">Reserve</a>
+          </div>
+        </article>
+
+        <article class="trip">
+          <img src="images/raft6.jpg" alt="Technical whitewater section">
+          <div class="trip-body">
+            <h3>White Water Rush</h3>
+            <ul class="trip-meta">
+              <li><strong>Duration:</strong> Full-day</li>
+              <li><strong>Difficulty:</strong> Advanced (IV)</li>
+              <li><strong>Price:</strong> $129</li>
+            </ul>
+            <a class="btn btn-outline" href="contact.html">Reserve</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Simple table (optional extra clarity) -->
+    <section class="trip-table" aria-labelledby="compare-title">
+      <h2 id="compare-title">Compare Trips</h2>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Trip</th><th>Duration</th><th>Difficulty</th><th>Price</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>Los Dientes del Diablo</td><td>Half-day</td><td>III–IV</td><td>$85</td></tr>
+            <tr><td>Family Fun Ride</td><td>2 hours</td><td>I–II</td><td>$49</td></tr>
+            <tr><td>Sunset Splash</td><td>Evening</td><td>II–III</td><td>$65</td></tr>
+            <tr><td>White Water Rush</td><td>Full-day</td><td>IV</td><td>$129</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 RiverJoy Adventures | Lilian Anyanwu</p>
+    <div class="socials">
+      <a href="#"><img src="images/facebook.png" alt="Facebook"></a>
+      <a href="#"><img src="images/twitter.png" alt="Twitter"></a>
+      <a href="#"><img src="images/instagram.png" alt="Instagram"></a>
+    </div>
+  </footer>
+</body>
+</html>
